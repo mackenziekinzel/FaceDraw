@@ -56,6 +56,7 @@
 		E5FEC7E120AA2FB1002A10A7 /* FaceDraw */ = {
 			isa = PBXGroup;
 			children = (
+				E5FEC7EE20AA2FB2002A10A7 /* Info.plist */,
 				E5FEC7F720AA3322002A10A7 /* FaceView.swift */,
 				E5FEC7E420AA2FB1002A10A7 /* ViewController.swift */,
 				E5FEC7E620AA2FB1002A10A7 /* Main.storyboard */,
@@ -70,7 +71,6 @@
 				E5FEC7E220AA2FB1002A10A7 /* AppDelegate.swift */,
 				E5FEC7E920AA2FB2002A10A7 /* Assets.xcassets */,
 				E5FEC7EB20AA2FB2002A10A7 /* LaunchScreen.storyboard */,
-				E5FEC7EE20AA2FB2002A10A7 /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
