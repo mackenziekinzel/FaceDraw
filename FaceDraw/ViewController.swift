@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
+    @IBOutlet weak var faceView: FaceView!
+    
+    var expression = FacialExpression(eyes: .open, mouth: .grin)
+    
 }
 

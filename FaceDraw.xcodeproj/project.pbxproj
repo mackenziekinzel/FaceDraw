@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5AA34A220AB6EE300280931 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA34A120AB6EE300280931 /* FacialExpression.swift */; };
 		E5FEC7E320AA2FB1002A10A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FEC7E220AA2FB1002A10A7 /* AppDelegate.swift */; };
 		E5FEC7E520AA2FB1002A10A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FEC7E420AA2FB1002A10A7 /* ViewController.swift */; };
 		E5FEC7E820AA2FB1002A10A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FEC7E620AA2FB1002A10A7 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5AA34A120AB6EE300280931 /* FacialExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 		E5FEC7DF20AA2FB1002A10A7 /* FaceDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5FEC7E220AA2FB1002A10A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5FEC7E420AA2FB1002A10A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				E5FEC7EE20AA2FB2002A10A7 /* Info.plist */,
+				E5AA34A120AB6EE300280931 /* FacialExpression.swift */,
 				E5FEC7F720AA3322002A10A7 /* FaceView.swift */,
 				E5FEC7E420AA2FB1002A10A7 /* ViewController.swift */,
 				E5FEC7E620AA2FB1002A10A7 /* Main.storyboard */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5FEC7E520AA2FB1002A10A7 /* ViewController.swift in Sources */,
+				E5AA34A220AB6EE300280931 /* FacialExpression.swift in Sources */,
 				E5FEC7E320AA2FB1002A10A7 /* AppDelegate.swift in Sources */,
 				E5FEC7F820AA3322002A10A7 /* FaceView.swift in Sources */,
 			);
