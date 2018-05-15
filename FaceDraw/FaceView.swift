@@ -26,7 +26,20 @@ class FaceView: UIView {
     }
     
     private func pathForEye(_ eye: Eye) -> UIBezierPath {
+        func centerOfEye(_ eye: Eye) -> CGPoint {
+            let eyeOffset = skullRadius / Ratios.skullRadiusToEyeOffset
+            var eyeCenter = skullCenter
+            eyeCenter.y -= eyeOffset
+            eyeCenter.x += ((eye == .left) ? -1 : 1) * eyeOffset
+            return eyeCenter
+        }
         
+        let eyeRadius = skullRadius / Ratios.skullRadiusToEyeRadius
+        let eyeCenter = centerOfEye(eye)
+        
+        let path = UIBezierPath(arcCenter: eyeCenter, radius: eyeRadius, startAngle: 0, endAngle: CGFloat.pi * 2, clockwise: true)
+        
+        return path
     }
     
     private func pathForSkull() -> UIBezierPath {
@@ -38,6 +51,8 @@ class FaceView: UIView {
     override func draw(_ rect: CGRect) {
         UIColor.blue.set()
         pathForSkull().stroke()
+        pathForEye(.left).stroke()
+        pathForEye(.right).stroke()
     }
     
     private struct Ratios {
