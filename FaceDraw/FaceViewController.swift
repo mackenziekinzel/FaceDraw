@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FaceViewController.swift
 //  FaceDraw
 //
 //  Created by Mackenzie Kinzel on 5/14/18.
@@ -8,7 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FaceViewController: UIViewController {
+    
+    var expression = FacialExpression(eyes: .open, mouth: .grin) {
+        didSet {
+            updateUI()
+        }
+    }
 
     @IBOutlet weak var faceView: FaceView! {
         didSet {
@@ -47,12 +53,6 @@ class ViewController: UIViewController {
         }
     }
     
-    var expression = FacialExpression(eyes: .open, mouth: .grin) {
-        didSet {
-            updateUI()
-        }
-    }
-    
     private let mouthCurvatures = [FacialExpression.Mouth.grin:0.5, .smile:1.0, .neutral: 0.0, .smirk:-0.5, .frown:-1.0]
     
     private func updateUI() {
@@ -68,7 +68,4 @@ class ViewController: UIViewController {
         
         faceView.mouthCurvature = mouthCurvatures[expression.mouth] ?? 0.0
     }
-    
 }
-
-

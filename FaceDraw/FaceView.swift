@@ -18,7 +18,7 @@ class FaceView: UIView {
     var lineWidth: CGFloat = 5.0 { didSet { setNeedsDisplay() } }
     
     @IBInspectable
-    var lineColor: UIColor = UIColor.blue { didSet { setNeedsDisplay() } }
+    var lineColor: UIColor = UIColor.black { didSet { setNeedsDisplay() } }
     
     @IBInspectable
     var eyesOpen: Bool = true { didSet { setNeedsDisplay() } }

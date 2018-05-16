@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E507CD5820ACD61C00FC547D /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E507CD5720ACD61C00FC547D /* EmotionsViewController.swift */; };
 		E5AA34A220AB6EE300280931 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA34A120AB6EE300280931 /* FacialExpression.swift */; };
 		E5FEC7E320AA2FB1002A10A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FEC7E220AA2FB1002A10A7 /* AppDelegate.swift */; };
-		E5FEC7E520AA2FB1002A10A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FEC7E420AA2FB1002A10A7 /* ViewController.swift */; };
+		E5FEC7E520AA2FB1002A10A7 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FEC7E420AA2FB1002A10A7 /* FaceViewController.swift */; };
 		E5FEC7E820AA2FB1002A10A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FEC7E620AA2FB1002A10A7 /* Main.storyboard */; };
 		E5FEC7EA20AA2FB2002A10A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5FEC7E920AA2FB2002A10A7 /* Assets.xcassets */; };
 		E5FEC7ED20AA2FB2002A10A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FEC7EB20AA2FB2002A10A7 /* LaunchScreen.storyboard */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E507CD5720ACD61C00FC547D /* EmotionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
 		E5AA34A120AB6EE300280931 /* FacialExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 		E5FEC7DF20AA2FB1002A10A7 /* FaceDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5FEC7E220AA2FB1002A10A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5FEC7E420AA2FB1002A10A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5FEC7E420AA2FB1002A10A7 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		E5FEC7E720AA2FB1002A10A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5FEC7E920AA2FB2002A10A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5FEC7EC20AA2FB2002A10A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +60,12 @@
 		E5FEC7E120AA2FB1002A10A7 /* FaceDraw */ = {
 			isa = PBXGroup;
 			children = (
-				E5FEC7EE20AA2FB2002A10A7 /* Info.plist */,
 				E5AA34A120AB6EE300280931 /* FacialExpression.swift */,
 				E5FEC7F720AA3322002A10A7 /* FaceView.swift */,
-				E5FEC7E420AA2FB1002A10A7 /* ViewController.swift */,
+				E5FEC7E420AA2FB1002A10A7 /* FaceViewController.swift */,
+				E507CD5720ACD61C00FC547D /* EmotionsViewController.swift */,
 				E5FEC7E620AA2FB1002A10A7 /* Main.storyboard */,
+				E5FEC7EE20AA2FB2002A10A7 /* Info.plist */,
 				E5FEC7F620AA2FF0002A10A7 /* Supporting Files */,
 			);
 			path = FaceDraw;
@@ -149,8 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5FEC7E520AA2FB1002A10A7 /* ViewController.swift in Sources */,
+				E5FEC7E520AA2FB1002A10A7 /* FaceViewController.swift in Sources */,
 				E5AA34A220AB6EE300280931 /* FacialExpression.swift in Sources */,
+				E507CD5820ACD61C00FC547D /* EmotionsViewController.swift in Sources */,
 				E5FEC7E320AA2FB1002A10A7 /* AppDelegate.swift in Sources */,
 				E5FEC7F820AA3322002A10A7 /* FaceView.swift in Sources */,
 			);
